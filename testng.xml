@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="SampleSpentra">
+
+	<listeners>
+		<listener class-name="com.common.TestListener" />
+	</listeners>
+
+	<test name="Spentra">
+		<classes>
+			<class name="com.functional.tests.Login" />
+			<class name="com.functional.tests.AddEmp" />
+		
+		
+		</classes>
+	</test> <!-- Test -->
+
+</suite> <!-- Suite -->
+
